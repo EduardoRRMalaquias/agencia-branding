@@ -3,15 +3,15 @@ import React from 'react';
 import logo from '../../../public/logo.png';
 import lua from '../../../public/moon.png';
 import sol from '../../../public/sun.png';
-import estilos from './Topo.module.css'
+import estilos from './Topo.module.css';
 
-const Topo = () => {
+const Topo = ({ tema, setTema }) => {
   return (
     <header className={estilos.topo}>
       <div className={`${estilos.topoContainer} container`}>
         <Image src={logo} />
-        <button className={estilos.btnTema}>
-          <Image src={true ? lua : sol} />
+        <button className={estilos.btnTema} onClick={() => setTema(!tema)}>
+          <Image src={tema ? lua : sol} />
         </button>
       </div>
     </header>

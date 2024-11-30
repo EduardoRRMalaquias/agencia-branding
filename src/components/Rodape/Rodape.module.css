@@ -1,0 +1,36 @@
+.rodape {
+  background-color: var(--cor-00);
+}
+
+.rodapeContainer {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+  max-width: 600px;
+  color: var(--cor-04);
+}
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 16px;
+}
+
+.redes img {
+  object-fit: cover;
+  width: 48px;
+  height: 48px;
+}
+
+.copy {
+  text-align: center;
+  padding: 32px;
+}
+
+.copy strong {
+  color: var(--cor-p1);
+}

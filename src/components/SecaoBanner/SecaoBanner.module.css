@@ -17,11 +17,12 @@
   font-size: 16px;
 }
 
-.secaoBanner div h1{
+.secaoBanner div h1 {
   font-size: 48px;
   font-weight: 300;
+  color: var(--cor-p2);
 }
 
-.secaoBanner div h1 strong{
+.secaoBanner div h1 strong {
   display: block;
 }
