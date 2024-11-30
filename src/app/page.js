@@ -5,7 +5,7 @@ import SecaoExperienciaTrabalho from '@/components/SecaoExperienciaTrabalho/Seca
 
 export default function Home() {
   return (
-    <main className={`${esilos.main} ${false ? "ligh" : "dark"}`}>
+    <main>
       <SecaoBanner />
       <SecaoExperienciaTrabalho />
     </main>
