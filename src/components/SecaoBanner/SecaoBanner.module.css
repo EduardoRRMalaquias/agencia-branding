@@ -1,0 +1,27 @@
+.secaoBanner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: var(--cor-01);
+}
+
+.secaoBanner img {
+  object-fit: cover;
+}
+
+.secaoBanner div {
+  padding: 24px;
+}
+
+.secaoBanner div p {
+  font-size: 16px;
+}
+
+.secaoBanner div h1{
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.secaoBanner div h1 strong{
+  display: block;
+}
