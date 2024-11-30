@@ -1,0 +1,22 @@
+.topo {
+  background-color: var(--cor-00);
+}
+
+.topoContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.topoContainer img {
+  width: 32px;
+  height: 32px;
+}
+
+.btnTema {
+  padding: 6px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: var(--cor-00);
+  cursor: pointer;
+}
