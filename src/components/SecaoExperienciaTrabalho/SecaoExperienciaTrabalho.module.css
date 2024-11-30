@@ -1,0 +1,40 @@
+.secaoExperienciaTrabalho {
+  background-color: var(--cor-00);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 100px 20px;
+  color: var(--cor-04);
+}
+
+.secaoTrabalho,
+.secaoTrabalho h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+}
+
+.secaoTrabalho h2 {
+  font-size: 48px;
+  color: var(--cor-05);
+}
+.secaoTrabalho h2::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 120px;
+  background-color: var(--cor-p1);
+  border-radius: 2px;
+}
+
+.secaoTrabalho p {
+  font-size: 18px;
+}
+
+.secaoExperiencia {
+  display: flex;
+  flex-wrap: wrap;
+}
