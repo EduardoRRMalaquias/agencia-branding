@@ -26,3 +26,15 @@
 .secaoBanner div h1 strong {
   display: block;
 }
+
+@media (max-width: 768px) {
+  .secaoBanner {
+    grid-template-columns: 1fr;
+  }
+  .secaoBanner figure {
+    display: none;
+  }
+  .secaoBanner div {
+    padding: 120px 20px;
+  }
+}

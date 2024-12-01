@@ -9,9 +9,9 @@ const Topo = ({ tema, setTema }) => {
   return (
     <header className={estilos.topo}>
       <div className={`${estilos.topoContainer} container`}>
-        <Image src={logo} />
+        <Image src={logo} alt='M. Design' />
         <button className={estilos.btnTema} onClick={() => setTema(!tema)}>
-          <Image src={tema ? lua : sol} />
+          <Image src={tema ? lua : sol} alt={tema ? "lua" : "sol"} />
         </button>
       </div>
     </header>

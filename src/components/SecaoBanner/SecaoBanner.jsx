@@ -7,7 +7,7 @@ const SecaoBanner = () => {
   return (
     <section className={estilos.secaoBanner}>
       <figure>
-        <Image src={banner} />
+        <Image src={banner} alt="Equipe trabalhando em projetos" />
       </figure>
       <div>
         <p>BRANDING / UI / UX / TECNOLOGIA</p>
